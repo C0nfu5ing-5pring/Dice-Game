@@ -1,0 +1,59 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #32466C;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 3.5rem;
+  color: #FAF1D8;
+
+
+}
+
+p {
+  font-size: 1.5rem;
+  color: goldenrod;
+  margin-top: 50px;
+}
+
+img {
+  width: 80%;
+}
+
+.reload {
+  margin: 70px;
+
+}
+
+.reload-button {
+  height: 50px;
+  width: auto;
+  background-color: #9C060C;
+  border: 2px solid goldenrod;
+  color: #FAF1D8;
+  border-radius: 7px;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+
+  &:hover {
+    transform: translateY(-0.15em);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
